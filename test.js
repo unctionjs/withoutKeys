@@ -1,8 +1,11 @@
-/* eslint-disable flowtype/require-parameter-type, flowtype/require-return-type */
-
+import {test} from "tap";
 import {{NAME}} from "./index"
 
-test("works", () => {
-  expect({{NAME}}(true)
-    .toBe(false)
-})
+test("works", ({same, end}) => {
+  same(
+    {{NAME}}(),
+    true
+  );
+
+  end();
+});
