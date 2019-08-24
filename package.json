@@ -1,7 +1,7 @@
 {
-  "name": "@unction/{{FQNAME}}",
+  "name": "@unction/withoutkeys",
   "version": "1.0.0",
-  "description": "",
+  "description": "Takes a enumerable that has keys and returns the same type where all the given keys don't exist",
   "keywords": [
     "unction",
     "functional"
@@ -14,9 +14,9 @@
     }
   ],
   "license": "ISC",
-  "homepage": "https://github.com/unctionjs/{{NAME}}#readme",
-  "repository": "github:unctionjs/{{NAME}}",
-  "bugs": "https://github.com/unctionjs/{{NAME}}/issues",
+  "homepage": "https://github.com/unctionjs/withoutKeys#readme",
+  "repository": "github:unctionjs/withoutKeys",
+  "bugs": "https://github.com/unctionjs/withoutKeys/issues",
   "module": "module.js",
   "main": "main.js",
   "browser": "browser.js",
@@ -57,7 +57,11 @@
     "tap": "12.6.1"
   },
   "dependencies": {
+    "@unction/fresh": "8.6.0",
     "@unction/isnil": "6.5.0",
+    "@unction/mergeright": "7.6.0",
+    "@unction/of": "5.6.0",
+    "@unction/reducewithvaluekey": "11.6.0",
     "core-js": "3.0.1"
   },
   "files": [

@@ -1,10 +1,19 @@
 import {test} from "tap";
-import {{NAME}} from "./index"
+import withoutKeys from "./index";
 
-test("works", ({same, end}) => {
+test("object", ({same, end}) => {
   same(
-    {{NAME}}(),
-    true
+    withoutKeys(["a", "b", "c"])({b: 2, d: 3}),
+    {d: 3}
+  );
+
+  end();
+});
+
+test("map", ({same, end}) => {
+  same(
+    withoutKeys(["a", "b", "c"])(new Map([["b", 2], ["d", 3]])),
+    new Map([["d", 3]])
   );
 
   end();
