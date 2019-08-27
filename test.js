@@ -1,5 +1,5 @@
 import {test} from "tap";
-import withoutKeys from "./index";
+import withoutKeys from "./";
 
 test("object", ({same, end}) => {
   same(
