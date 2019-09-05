@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> KeyList => KeyValueEnumerable<T> => KeyValueEnumerable<T>
+> Array<A> => RecordType<A, B> => RecordType<A, B>
 
 Takes a enumerable that has keys and returns the same type where all the given keys don't exist.
 
