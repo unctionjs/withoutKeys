@@ -1,4 +1,4 @@
-import withoutKeys from "./index.ts";
+import withoutKeys from "./index";
 
 test("object", () => {
   expect(withoutKeys(["a", "b", "c"])({b: 2, d: 3})).toEqual({d: 3});
