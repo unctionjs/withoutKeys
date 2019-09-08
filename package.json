@@ -54,11 +54,11 @@
     "typescript": "3.5.1"
   },
   "dependencies": {
-    "@unction/fresh": "8.6.0",
-    "@unction/isnil": "6.6.0",
-    "@unction/mergeright": "7.7.0",
-    "@unction/of": "5.7.0",
-    "@unction/reducewithvaluekey": "11.7.0",
+    "@unction/fresh": "8.8.0",
+    "@unction/isnil": "6.6.1",
+    "@unction/mergeright": "7.8.0",
+    "@unction/of": "5.8.0",
+    "@unction/reducewithvaluekey": "11.8.0",
     "core-js": "3.0.1"
   },
   "files": [
