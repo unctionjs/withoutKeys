@@ -67,5 +67,6 @@
     "browser.js",
     "types/*.d.ts"
   ],
-  "types": "types.d.ts"
+  "types": "types.d.ts",
+  "sideEffects": false
 }
