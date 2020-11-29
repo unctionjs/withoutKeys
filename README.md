@@ -4,7 +4,7 @@
 ![Stability][BADGE_STABILITY]
 ![Dependencies][BADGE_DEPENDENCY]
 
-> Array<A> => RecordType<A, B> => RecordType<A, B>
+> Array<A> => Record<string | number | symbol, B> | Map<A, B> => Record<string | number | symbol, B> | Map<A, B>
 
 Takes a enumerable that has keys and returns the same type where all the given keys don't exist.
 
