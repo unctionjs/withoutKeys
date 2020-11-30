@@ -1,6 +1,6 @@
 {
   "name": "@unction/withoutkeys",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "description": "Takes a enumerable that has keys and returns the same type where all the given keys don't exist",
   "keywords": [
     "unction",
